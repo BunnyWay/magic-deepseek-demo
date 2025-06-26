@@ -4,7 +4,7 @@ Deploy **DeepSeek R1** on [Magic Containers](https://bunny.net/) with a single D
 
 This repository provides a **ready-to-deploy** setup for running the **DeepSeek R1 1.5B** model using [Ollama](https://ollama.ai/) inside **Magic Containers**. With this, you can run AI inference at the edge without the need for complex infrastructure.
 
-🚀 **Read the full blog post** for a detailed guide: **[Link to the blog post](#)**
+🚀 **Read the full blog post** for a detailed guide: **[Link to the blog post](https://bunny.net/blog/deploying-deepseek-r1-on-magic-containers-ai-inference-at-the-edge/)**
 
 ---
 
@@ -63,7 +63,7 @@ curl -X POST http://localhost:11434/v1/completions \
 
 2. **Use Magic Containers to Deploy**
    
-   Go to the **[bunny.net dashboard](https://bunny.net/)**, create a **Magic Container**, and use the image:
+   Go to the **[bunny.net dashboard](https://dash.bunny.net/)**, create a **Magic Container**, and use the image:
 
    ```
    ghcr.io/bunnyway/magic-deepseek-demo:latest
@@ -86,8 +86,8 @@ The repository includes a **CI/CD pipeline** that automatically builds and pushe
 
 ## 📝 Related Resources
 
-- 📖 **Blog Post**: [Read the full guide on deploying DeepSeek R1 on Magic Containers](#)
-- 🐰 **Magic Containers**: [Learn more about bunny.net's Magic Containers](https://bunny.net/)
+- 📖 **Blog Post**: [Read the full guide on deploying DeepSeek R1 on Magic Containers](https://bunny.net/blog/deploying-deepseek-r1-on-magic-containers-ai-inference-at-the-edge/)
+- 🐰 **Magic Containers**: [Learn more about bunny.net's Magic Containers](https://bunny.net/magic-containers/)
 - 🤖 **DeepSeek R1**: [Check out the DeepSeek AI model](https://deepseek.com/)
 - 🐳 **Ollama**: [Lightweight framework for AI inference](https://ollama.ai/)
 
